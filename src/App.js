@@ -10,6 +10,7 @@ import Videopage from './components/Videopage/Videopage'
 import JoinCollect from './components/Join/JoinCollect'
 import LoginCollect from './components/Login/LoginCollect'
 import TimesetStart from './components/Timeset/TimesetStart'
+import VideoDetail from './components/Videopage/VideoDetail'
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
         <Route path='/timesetplace' element={< TimesetStart />} />
 
         <Route path='/videopage' element={< Videopage />} />
+        <Route path='/videopage/:videoId' element={< VideoDetail />} />
       </Routes>
     </BrowserRouter>
   )

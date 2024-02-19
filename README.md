@@ -2,4 +2,6 @@
 
 1) react-router-dom
 2) sass
-3) react-calendar
+3) swiper
+4) npm install react-kakao-maps-sdkline
+5) react-loader-spinner
